@@ -1,0 +1,97 @@
+html{
+
+    font-family: Nunito;
+}
+
+
+body{
+
+    background-color:black;
+    color: white;
+}
+
+.boards{
+
+    display: flex;
+    margin-top: 32px;
+}
+
+.board {
+    
+        background-color: rgba(255, 255, 255, 0.267);
+        border: 1px solid #FD951F11;
+        border-radius: 4px;
+        margin: 0 16px;
+}
+
+.board h3{
+
+    padding: 16px;
+    margin: 0;
+    color: #fd951fCC;
+}
+
+.dropzone{
+
+    padding: 16px;
+    background: gray;
+    min-width:  282px;
+    min-height: 200px;
+}
+
+.card{
+
+padding: 16px;
+box-shadow:0 2px 2px -1px #FD951Fcc;
+width: 250px;
+margin: 25px 0;
+border-radius: 4px;
+font-weight: 600;
+font-size: 18px;
+background-color: rgb(0, 0, 0);
+
+}
+
+.status{
+
+    width:30px;
+    height: 8px;
+    background-color: gray;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}   
+
+.status.green{
+
+    background-color: green;
+}
+
+.status.blue{
+
+    background-color: blue;
+}
+
+.status.red{
+
+    background-color: red;
+}
+
+.highligth{ 
+
+    background-color: #fd951f08;
+}
+
+.cards, .dropzone{
+    transition: 400ms;
+}
+.is-dragging{
+
+    cursos:move;
+    opacity: 0.3;
+
+}
+
+.over{
+
+    background-color: #4cd13711;
+}

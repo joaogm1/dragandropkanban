@@ -1,0 +1,20 @@
+1-Criar os elemtnos em html
+2-Criar elementos css
+3- Criar os cards ( elementos que vão ser arrastados)
+4- utilizar o atributo draggable = true
+5-Criar as funções em javascript
+6Funções
+
+dragstart = quando começar a arrastar
+drag = enquanto estiver arrastando
+dragend = final do arrasto
+dragover = soltar
+dragleave = depois que soltar 
+
+
+Documentação:
+
+https://www.notion.so/Drag-and-Drop-API-56b653f51c374cf0954809994c244437
+
+https://www.youtube.com/watch?v=6wn8hpUcEcM&t=61s
+ 
